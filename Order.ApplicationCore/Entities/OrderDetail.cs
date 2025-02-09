@@ -24,6 +24,6 @@ namespace Order.ApplicationCore.Entities
         
         // Navigation property – each detail belongs to one order
         [JsonIgnore]
-        public Order Order { get; set; }
+        public Order? Order { get; set; }
     }
 }
